@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'com.doris.extension'
+}
+
+ext {
+    extName = 'FMovies'
+    extClass = '.FMovies'
+    themeSource = 'single'
+    libVersion = '1'
+    codeVersion = 1
+}
+
+android {
+    defaultConfig {
+        applicationId "eu.kanade.tachiyomi.extension.en.fmovies"
+        versionCode 1
+        versionName "1.0"
+    }
+}
