@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'com.doris.extension'
+}
+
+ext {
+    extName = 'Anime3rb'
+    extClass = '.Anime3rb'
+    themeSource = 'single'
+    libVersion = '1'
+    codeVersion = 1
+}
+
+android {
+    defaultConfig {
+        applicationId "eu.kanade.tachiyomi.extension.ar.anime3rb"
+        versionCode 1
+        versionName "1.0"
+    }
+}
